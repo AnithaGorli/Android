@@ -101,7 +101,7 @@ public class CustomerDAO implements Parcelable{
 
 
 	public String toString() {
-		return "\n\n\tUsername:"+getUsername()+"\n\tPassword:"+getPassword()+"\n\tEmail:"+getEmail()+"\n\tPhone:"+getPhone()+"\ntAddress:"+getAddress();
+		return "\n\n\tUsername:"+getUsername()+"\n\tPassword:"+getPassword()+"\n\tEmail:"+getEmail()+"\n\tPhone:"+getPhone()+"\n\tAddress:"+getAddress();
 	};
 }
 
