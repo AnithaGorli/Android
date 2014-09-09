@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">CustomerApplication</string>
+<string name="username">Username :</string>
+<string name="password">password :</string>
+<string name="email">Email :</string>
+<string name="phone">Phone :</string>
+<string name="address">Address :</string>
+</resources>

@@ -1,0 +1,17 @@
+package com.pcs.customerapplication;
+
+import android.app.Activity;
+import android.content.DialogInterface.OnClickListener;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class CustomerActivity extends Activity{
+	private Button Login_btn;
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+	// TODO Auto-generated method stub
+	super.onCreate(savedInstanceState);
+	setContentView(R.layout.customer);
+	
+}
+}

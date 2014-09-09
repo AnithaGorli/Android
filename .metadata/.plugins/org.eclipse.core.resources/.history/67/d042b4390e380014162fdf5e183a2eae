@@ -1,0 +1,53 @@
+package com.pcs.customerapplication;
+
+import com.pcs.customer.CustomerDAO;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class LoginActivity extends Activity{
+  private EditText Username_edt;
+  private EditText Password_edt;
+  private EditText Email_edt;
+  private EditText Phone_edt;
+  private EditText Address_edt;
+  private Button Submit_btn;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.login);
+		
+		Username_edt=(EditText)findViewById(R.id.user_edt);
+		Password_edt=(EditText)findViewById(R.id.pwd_edt);
+		Email_edt=(EditText)findViewById(R.id.email_edt);
+		Phone_edt=(EditText)findViewById(R.id.phn_edt);
+		Address_edt=(EditText)findViewById(R.id.address_edt);
+		Submit_btn=(Button)findViewById(R.id.submit_btn);
+		 
+		
+		Submit_btn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent=new Intent(LoginActivity.this,DisplayActivity.class);
+				CustomerDAO customer=new CustomerDAO();
+				customer.setUsername(Username_edt.getText().toString());
+				customer.setPassword(Password_edt.getText().toString());
+				customer.setEmail(Email_edt.getText().toString());
+				customer.setPhone(Phone_edt.getText().toString());
+				customer.setAddress(Address_edt.getText().toString());
+				intent.putExtra(name, value)
+				
+			}
+		});
+		
+	}
+	
+}
