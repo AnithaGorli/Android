@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">ImplicitIntentApplication</string>
+     <string name="call">Call</string>
+       <string name="email">you can not login</string>
+       <string name="cal">Calculator</string>
+    <string name="contacts">Contacts</string>
+    <string name="browse">Browse</string>
+<string name="choose">there is no contacts</string>
+</resources>
