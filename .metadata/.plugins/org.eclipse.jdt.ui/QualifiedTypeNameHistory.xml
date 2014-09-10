@@ -3,13 +3,17 @@
 <fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
 <fullyQualifiedTypeName name="com.pcs.customerapplication.CustomerActivity"/>
 <fullyQualifiedTypeName name="android.content.Intent"/>
-<fullyQualifiedTypeName name="com.pcs.customerapplication.R.layout"/>
 <fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="android.widget.Button"/>
-<fullyQualifiedTypeName name="com.pcs.customerapplication.R.id"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="com.pcs.customerapplication.DisplayActivity"/>
 <fullyQualifiedTypeName name="com.pcs.customerapplication.LoginActivity"/>
-<fullyQualifiedTypeName name="com.pcs.customer.CustomerDAO"/>
 <fullyQualifiedTypeName name="android.os.Parcelable"/>
+<fullyQualifiedTypeName name="com.pcs.customerapplication.R.layout"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="com.pcs.customerapplication.R.id"/>
+<fullyQualifiedTypeName name="com.pcs.customerapplication.Constants"/>
+<fullyQualifiedTypeName name="com.pcs.customerapplication.Constants.LoginExtras"/>
+<fullyQualifiedTypeName name="android.os.Parcelable.Creator"/>
+<fullyQualifiedTypeName name="com.pcs.customer.CustomerDAO"/>
 </qualifiedTypeNameHistroy>
