@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
         android:textSize="30sp"
-        android:textColor="#DAA520"
+        android:textColor="DAA520"
         android:visibility="gone" />
 
     <ImageView

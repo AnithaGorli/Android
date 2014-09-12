@@ -35,7 +35,7 @@ public class ResultActivity extends Activity {
 		}
 		if(choice.equals(Constants.LoginExtras.MUSIC)){
 			imageview.setVisibility(View.VISIBLE);
-			imageview.setBackgroundResource(R.drawable.music);
+			imageview.setBackgroundResource(R.drawable.dogs);
 
 		}
 		if(choice.equals(Constants.LoginExtras.FACEBOOK)){
