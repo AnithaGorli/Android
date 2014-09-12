@@ -18,49 +18,49 @@ public class ResultActivity extends Activity {
 		setContentView(R.layout.result);
 
 		TextView textview=(TextView)findViewById(R.id.result_text);
-		
+
 		ImageView imageview=(ImageView)findViewById(R.id.result_image);
-		
+
 		WebView webview=(WebView)findViewById(R.id.result_browse);
-		
-		
-		
-      
+
+
+
+
 		String choice=getIntent().getAction();
 
-			if(choice.equals(Constants.LoginExtras.BROWSER)){
-				webview.setVisibility(View.VISIBLE);
-				webview.loadUrl("http://google.com");
-				
-			}
-			else  if(choice.equals(Constants.LoginExtras.MUSIC)){
-				
+		if(choice.equals(Constants.LoginExtras.BROWSER)){
+			webview.setVisibility(View.VISIBLE);
+			webview.loadUrl("https://www.google.com");
 
-			}
-			else  if(choice.equals(Constants.LoginExtras.FACEBOOK)){
-				webview.setVisibility(View.VISIBLE);
-				webview.loadUrl("http://facebook.com");
-				
-			}
-			else  if(choice.equals(Constants.LoginExtras.TEXT)){
-				textview.setVisibility(View.VISIBLE);
-				textview.setText(getResources().getString(R.string.welcome));
-			}
-			else  if(choice.equals(Constants.LoginExtras.IMAGE)){
-				imageview.setVisibility(View.VISIBLE);
-				imageview.setImageResource(R.drawable.ic_launcher);
+		}
+		if(choice.equals(Constants.LoginExtras.MUSIC)){
 
-			}
-			else  if(choice.equals(Constants.LoginExtras.EDUCATION)){
-				imageview.setVisibility(View.VISIBLE);
-				imageview.setImageResource(R.drawable.ic_launcher);
 
-			}
-		
+		}
+		if(choice.equals(Constants.LoginExtras.FACEBOOK)){
+			webview.setVisibility(View.VISIBLE);
+			webview.loadUrl("http://facebook.com");
+
+		}
+		if(choice.equals(Constants.LoginExtras.TEXT)){
+			textview.setVisibility(View.VISIBLE);
+			textview.setText(getResources().getString(R.string.welcome));
+		}
+		if(choice.equals(Constants.LoginExtras.IMAGE)){
+			imageview.setVisibility(View.VISIBLE);
+			imageview.setBackgroundResource(R.drawable.dogs);
+
+		}
+		if(choice.equals(Constants.LoginExtras.EDUCATION)){
+			imageview.setVisibility(View.VISIBLE);
+			imageview.setImageResource(R.drawable.education_image);
 
 		}
 
+
 	}
 
-	
+}
+
+
 

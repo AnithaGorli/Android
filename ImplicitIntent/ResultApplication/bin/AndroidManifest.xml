@@ -14,14 +14,14 @@
         android:theme="@style/AppTheme" >
         <activity android:name="com.pcs.resultapplication.ResultActivity" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            
                 <action android:name="com.pcs.resultapplication.ResultActivity.SHOW_BROWSER" />
                 <action android:name="com.pcs.resultapplication.ResultActivity.PLAY_MUSIC" />
                 <action android:name="com.pcs.resultapplication.ResultActivity.SHOW_TEXT" />
                 <action android:name="com.pcs.resultapplication.ResultActivity.SHOW_EDUCATION" />
                 <action android:name="com.pcs.resultapplication.ResultActivity.SHOW_FACEBOOK" />
                 <action android:name="com.pcs.resultapplication.ResultActivity.SHOW_IMAGES" />
-           <data android:scheme="http"></data>
+          
            
             <category android:name="android.intent.category.LAUNCHER"/>
             <category android:name="android.intent.category.DEFAULT"/>

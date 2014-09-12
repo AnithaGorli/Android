@@ -44,42 +44,42 @@ public class RequestActivity extends Activity implements OnClickListener{
 	@Override
 	public void onClick(View v) {
 
-		Intent intent = new Intent();
+		
 		switch(v.getId())
 		{
 		case R.id.browser_btn:
-			intent = new Intent("com.pcs.resultapplication.ResultActivity.SHOW_BROWSER");
+			 Intent intent = new Intent("com.pcs.resultapplication.ResultActivity.SHOW_BROWSER");
 			intent.addCategory(Intent.CATEGORY_LAUNCHER);
 			startActivity(intent);
 			break;
 		case R.id.music_btn :
-			intent = new Intent("com.pcs.resultapplication.ResultActivity.PLAY_MUSIC");
-			intent.addCategory(Intent.CATEGORY_LAUNCHER);
-			startActivity(intent);
+			Intent intent_m = new Intent("com.pcs.resultapplication.ResultActivity.PLAY_MUSIC");
+			intent_m.addCategory(Intent.CATEGORY_LAUNCHER);
+			startActivity(intent_m);
 			break;
 
 		case R.id.images_btn:
-			intent = new Intent("com.pcs.resultapplication.ResultActivity.SHOW_IMAGES");
-			intent.addCategory(Intent.CATEGORY_LAUNCHER);
-			startActivity(intent);
+			Intent intent_i = new Intent("com.pcs.resultapplication.ResultActivity.SHOW_IMAGES");
+			intent_i.addCategory(Intent.CATEGORY_LAUNCHER);
+			startActivity(intent_i);
 			break;
 
 		case R.id.text_btn :
-			intent = new Intent("com.pcs.resultapplication.ResultActivity.SHOW_TEXT");
-			intent.addCategory(Intent.CATEGORY_LAUNCHER);
+			Intent intent_t = new Intent("com.pcs.resultapplication.ResultActivity.SHOW_TEXT");
+			intent_t.addCategory(Intent.CATEGORY_LAUNCHER);
 
-			startActivity(intent);
+			startActivity(intent_t);
 			break;
 
 		case R.id.facebook_btn :
-			intent = new Intent("com.pcs.resultapplication.ResultActivity.SHOW_FACEBOOK");
-			intent.addCategory(Intent.CATEGORY_LAUNCHER);
-			startActivity(intent);
+			Intent intent_f = new Intent("com.pcs.resultapplication.ResultActivity.SHOW_FACEBOOK");
+			intent_f.addCategory(Intent.CATEGORY_LAUNCHER);
+			startActivity(intent_f);
 			break;
 		case R.id.education_btn:
-			intent = new Intent("com.pcs.resultapplication.ResultActivity.SHOW_EDUCATION");
-			intent.addCategory(Intent.CATEGORY_LAUNCHER);
-			startActivity(intent);
+			Intent intent_e = new Intent("com.pcs.resultapplication.ResultActivity.SHOW_EDUCATION");
+			intent_e.addCategory(Intent.CATEGORY_LAUNCHER);
+			startActivity(intent_e);
 			break;
 		default :
 			break;
