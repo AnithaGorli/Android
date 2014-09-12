@@ -41,34 +41,34 @@ public class ImplicitIntentActivity extends Activity implements OnClickListener{
 		case R.id.call_btn:
 			intent=new Intent(Intent.ACTION_CALL);
 			intent.setData(Uri.parse("tel:9848022338"));
-			 startActivity(intent);
-			
+			startActivity(intent);
+
 			break;
 		case R.id.contacts_btn:
-			 intent=new Intent(Intent.ACTION_VIEW);
+			intent=new Intent(Intent.ACTION_VIEW);
 			intent.setData(Uri.parse("content://contacts/people/"));
-			 startActivity(Intent.createChooser(intent,getResources().getString(R.string.choose)));
+			startActivity(Intent.createChooser(intent,getResources().getString(R.string.choose)));
 			break;
 		case R.id.browse_btn:
 			intent=new Intent(Intent.ACTION_VIEW);
 			intent.setData(Uri.parse("http://google.com"));
-			 startActivity(intent);
+			startActivity(intent);
 			break;
-			
-			
+
+
 		case R.id.email_btn:
 			intent=new Intent(Intent.ACTION_SEND);
 			intent.putExtra(intent.EXTRA_TEXT,"Hello friends");
 			intent.putExtra(intent.EXTRA_SUBJECT,"Wishes");
 			intent.putExtra(intent.EXTRA_EMAIL,"anitha.honey784@gmail.com");
-			
-			 startActivity(Intent.createChooser(intent, getResources().getString(R.string.email)));
+
+			startActivity(Intent.createChooser(intent, getResources().getString(R.string.email)));
 			break;
-			
-			default:
-				intent=new Intent();
-				break;
+
+		default:
+			intent=new Intent();
+			break;
 		}
-  
+
 	}
 }
