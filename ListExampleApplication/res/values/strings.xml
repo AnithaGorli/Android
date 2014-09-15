@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">ListExampleApplication</string>
+<string name="name">Enter name!</string>
+<string name="phone">Enter phone!</string>
+<string name="address">Enter address!</string>
+<string name="add">Add</string>
+<string name="app">CONTACTS</string>
+
+<string name="heading">ADD CONTACT</string>
+<string name="create">Create </string>
+
+
+</resources>
