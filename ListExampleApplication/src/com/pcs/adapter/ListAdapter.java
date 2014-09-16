@@ -70,7 +70,7 @@ public class ListAdapter extends BaseAdapter {
 		}
 
 
-		container.imageView.setBackgroundResource(R.drawable.back);
+		container.imageView.setBackgroundResource(user.getImage());
 		container.nameTxt.setText(user.getName());
 		container.phoneTxt.setText(user.getPhone());
 		container.addressTxt.setText(user.getAddress());
@@ -89,7 +89,18 @@ public class ListAdapter extends BaseAdapter {
 
 
 
-
+public void adduser(User user) throws IllegalArgumentException{
+	if(userlist!=null){
+		
+		
+		if(user==null){
+			throw new IllegalArgumentException("User should not be null");
+		}
+		
+		userlist.add(user);
+		notifyDataSetChanged();
+		}
+}
 
 
 }

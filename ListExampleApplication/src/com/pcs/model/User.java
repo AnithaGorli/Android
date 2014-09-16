@@ -5,6 +5,7 @@ public class User {
 	private String name;
 	private String phone;
 	private String address;
+	private int image;
 	
 	
 	public String getAddress() {
@@ -24,6 +25,12 @@ public class User {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public int getImage() {
+		return image;
+	}
+	public void setImage(int image) {
+		this.image = image;
 	}
 	
 
