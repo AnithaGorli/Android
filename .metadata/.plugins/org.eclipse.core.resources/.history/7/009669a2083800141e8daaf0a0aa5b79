@@ -1,7 +1,0 @@
-<resources>
-
-    <string name="app_name">CustomerApplication</string>
-<string name="username">Username :</string>
-<string name="password">password :</string>
-
-</resources>

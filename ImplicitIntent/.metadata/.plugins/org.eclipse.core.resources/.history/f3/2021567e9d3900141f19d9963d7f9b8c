@@ -1,8 +1,0 @@
-package com.pcs.resultapplication;
-
-public class Constants {
-	public static Interface LoginExtras{
-		public static final String IMAGE=";"
-	}
-
-}

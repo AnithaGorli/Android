@@ -8,6 +8,8 @@ public class User {
 	private int image;
 	
 	
+	
+	
 	public String getAddress() {
 		return address;
 	}

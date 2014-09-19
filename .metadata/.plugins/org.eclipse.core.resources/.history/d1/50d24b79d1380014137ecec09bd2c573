@@ -1,8 +1,0 @@
-<resources>
-
-    <string name="app_name">ImplicitIntentApplication</string>
-     <string name="call">Call</string>
-    <string name="contacts">Contacts</string>
-    <string name="browse">Browse</string>
-
-</resources>
