@@ -172,7 +172,12 @@ public class MenuActivity extends Activity{
 			intent1.putExtra(Constants.AddingExtras.NAME, nameEdt.getText().toString());
 			intent1.putExtra(Constants.AddingExtras.PHONE, phoneEdt.getText().toString());
 			intent1.putExtra(Constants.AddingExtras.MAIL, mailEdt.getText().toString());
-			if( TextUtils.isEmpty((CharSequence) nameEdt) &  TextUtils.isEmpty((CharSequence)phoneEdt) &  TextUtils.isEmpty((CharSequence)mailEdt) ){
+			Boolean nameBool = TextUtils.isEmpty(nameEdt.getText().toString());
+			Boolean mailBool = TextUtils.isEmpty(mailEdt.getText().toString());
+			Boolean phoneBool = TextUtils.isEmpty(phoneEdt.getText().toString());
+			
+			
+			if( nameBool==true  & mailBool==true& phoneBool==true ){
 				setResult(Activity.RESULT_CANCELED);
 			}else{
 				setResult(Activity.RESULT_OK,intent1);
