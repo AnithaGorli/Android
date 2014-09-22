@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     
+    <TextView 
+        android:id="@+id/heading_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heading"
+        android:layout_margin="20dp"
+        android:background="#00FF00"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/name_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/phone_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/phone" 
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/address_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/address" />
+
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/add" 
+      android:layout_weight="1"
+        android:background="#00FF00"/>
+    
+    <Button
+        android:id="@+id/cancle_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/cancel" 
+       android:layout_weight="1"
+        android:background="#00FF00"/></LinearLayout>
+    
+
+</LinearLayout>

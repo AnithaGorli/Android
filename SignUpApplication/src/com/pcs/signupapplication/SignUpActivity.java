@@ -114,6 +114,7 @@ public class SignUpActivity extends Activity{
 		 * if i din't set any Date of Birth for dob it will return 0
 		 * else 1
 		 * And Date will be selected by default calendar 
+		 * i used default DatePicker
 		 */
 		dobEdt.setOnClickListener(new OnClickListener() {
 
@@ -138,7 +139,8 @@ public class SignUpActivity extends Activity{
 		 * refresh() will return a boolean value as a result
 		 * if i din't set any Time of Birth for tob it will return 0
 		 * else 1
-		 * And Date will be selected by default calendar 
+		 * And Time  will be selected by default calendar 
+		 * i used default TimePicker
 		 */
 
 		tobEdt.setOnClickListener(new OnClickListener() {

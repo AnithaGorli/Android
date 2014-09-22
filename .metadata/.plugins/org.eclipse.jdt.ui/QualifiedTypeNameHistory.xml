@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.pcs.customerapplication.CustomerActivity"/>
-<fullyQualifiedTypeName name="com.pcs.customerapplication.DisplayActivity"/>
-<fullyQualifiedTypeName name="com.pcs.customerapplication.LoginActivity"/>
-<fullyQualifiedTypeName name="android.os.Parcelable"/>
 <fullyQualifiedTypeName name="com.pcs.customerapplication.R.layout"/>
 <fullyQualifiedTypeName name="com.pcs.customerapplication.R.id"/>
 <fullyQualifiedTypeName name="com.pcs.customerapplication.Constants"/>
@@ -17,10 +13,7 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="android.content.Context"/>
 <fullyQualifiedTypeName name="com.pcs.model.User"/>
-<fullyQualifiedTypeName name="android.R"/>
-<fullyQualifiedTypeName name="android.R.layout"/>
 <fullyQualifiedTypeName name="com.example.listexampleapplication.R.id"/>
-<fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="com.pcs.listexampleapplication.Constants"/>
 <fullyQualifiedTypeName name="com.pcs.listexampleapplication.Constants.AddingExtras"/>
 <fullyQualifiedTypeName name="com.example.listexampleapplication.R"/>
@@ -36,20 +29,35 @@
 <fullyQualifiedTypeName name="com.example.dialogapplication.R.layout"/>
 <fullyQualifiedTypeName name="com.example.dialogapplication.R.string"/>
 <fullyQualifiedTypeName name="com.example.dialogapplication.R"/>
-<fullyQualifiedTypeName name="android.widget.Button"/>
 <fullyQualifiedTypeName name="com.example.dialogapplication.R.id"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
 <fullyQualifiedTypeName name="android.widget.AdapterView.OnItemClickListener"/>
-<fullyQualifiedTypeName name="android.content.Intent"/>
 <fullyQualifiedTypeName name="com.pcs.dialogapplication.DialogActivity"/>
 <fullyQualifiedTypeName name="com.pcs.dialogapplication.ListActivity"/>
-<fullyQualifiedTypeName name="android.widget.LinearLayout"/>
-<fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="com.pcs.signupapplication.SignUpActivity"/>
 <fullyQualifiedTypeName name="android.widget.ProgressBar"/>
 <fullyQualifiedTypeName name="com.example.signupapplication.R.id"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.text.TextUtils"/>
 <fullyQualifiedTypeName name="android.app.Activity"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.layout"/>
+<fullyQualifiedTypeName name="com.example.menuapplication.R"/>
+<fullyQualifiedTypeName name="com.example.menuapplication.R.layout"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.view.ContextMenu"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.view.MenuInflater"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.net.Uri"/>
+<fullyQualifiedTypeName name="android.content.ClipData.Item"/>
+<fullyQualifiedTypeName name="com.example.menuapplication.R.menu"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="com.pcs.menuapplication.MenuActivity"/>
+<fullyQualifiedTypeName name="android.widget.LinearLayout"/>
+<fullyQualifiedTypeName name="com.example.menuapplication.R.id"/>
+<fullyQualifiedTypeName name="com.example.menuapplication.R.drawable"/>
+<fullyQualifiedTypeName name="com.example.menuapplication.R.color"/>
 </qualifiedTypeNameHistroy>

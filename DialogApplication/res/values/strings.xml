@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">DialogApplication</string>
+    <string name="create">Create Contact</string>
+    <string name="delete">Delete Contact</string>
+    <string name="heading">Adding Contact</string>
+    <string name="color">Pick A Color</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="address">Address</string>
+    <string name="color_title">Change List Background</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete_title">Delete Contact</string>
+    <string name="delete_message">Are you sure you want to delete contact</string>
+
+    <string-array name="colors">
+        <item>pink</item>
+        <item>yellow</item>
+        <item>blue</item>
+    </string-array>
+
+</resources>
