@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+ <item 
+        android:id="@+id/change_background_color"
+        android:title="@string/change_color">
+ <group ><menu>
+     
+     <item android:id="@+id/pink"
+        android:title="@string/pink"/>
+     
+       <item android:id="@+id/blue"
+        android:title="@string/blue"/>
+       
+         <item android:id="@+id/yellow"
+        android:title="@string/yellow"/>
+     
+ </menu></group></item>
+ <item 
+        android:id="@+id/reset"
+        android:title="@string/reset"/>
+ <item 
+        android:id="@+id/change_theme"
+        android:title="@string/change_theme">
+ 
+ <group ><menu>
+     
+     <item android:id="@+id/theme1"
+        android:title="@string/theme1"/>
+     
+       <item android:id="@+id/theme2"
+        android:title="@string/theme2"/>
+       
+         <item android:id="@+id/theme3"
+        android:title="@string/theme3"/>
+     
+ </menu></group></item>
+</menu>

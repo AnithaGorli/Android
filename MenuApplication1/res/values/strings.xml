@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">MenuApplication</string>
+    <string name="item_1">call</string>
+    <string name="item_2">Add contact to</string>
+    <string name="item_3">mail</string>
+    <string name="change_color">ChangeBackground</string>
+    <string name="reset">Reset</string>
+    <string name="change_theme">change Theme</string>
+    <string name="name">Name</string>
+    <string name="mail">Email</string>
+    <string name="phone">Phone</string>
+    <string name="contacts_text">Contacts</string>
+    <string name="ok">OK</string>
+    <string name="message">Data shuold not be null</string>
+    <string name="pink">Pink</string>
+    <string name="blue">Blue</string>
+    <string name="yellow">Yellow</string>
+    <string name="theme1">Moon Light</string>
+    <string name="theme2">Nature</string>
+    <string name="theme3">Ocean</string>
+
+</resources>
