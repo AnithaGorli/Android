@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">FragmentApplication</string>
+    <string name="google">Google</string>
+    <string name="images">Images</string>
+    <string name="document">Document</string>
+    <string name="text">Hello world</string>
+
+</resources>
