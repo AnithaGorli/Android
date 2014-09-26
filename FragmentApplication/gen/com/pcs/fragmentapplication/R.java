@@ -11,22 +11,26 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int doc=0x7f020000;
+        public static final int flower=0x7f020001;
+        public static final int gallery=0x7f020002;
+        public static final int google=0x7f020003;
+        public static final int ic_launcher=0x7f020004;
     }
     public static final class id {
         public static final int container=0x7f060006;
-        public static final int fragment1_imagebtn=0x7f060001;
-        public static final int fragment1_textbtn=0x7f060002;
-        public static final int fragment1_webbtn=0x7f060000;
-        public static final int fragment2_imageview=0x7f060004;
-        public static final int fragment2_textview=0x7f060005;
-        public static final int fragment2_webview=0x7f060003;
         public static final int fragment_1=0x7f060007;
-        public static final int fragment_2=0x7f060008;
+        public static final int fragment_two=0x7f060008;
+        public static final int fragmentone_imagebtn=0x7f060001;
+        public static final int fragmentone_textbtn=0x7f060002;
+        public static final int fragmentone_webbtn=0x7f060000;
+        public static final int fragmenttwo_imageview=0x7f060004;
+        public static final int fragmenttwo_textview=0x7f060005;
+        public static final int fragmenttwo_webview=0x7f060003;
     }
     public static final class layout {
-        public static final int fragment1=0x7f030000;
-        public static final int fragment2=0x7f030001;
+        public static final int fragment_one=0x7f030000;
+        public static final int fragment_two=0x7f030001;
         public static final int mainone=0x7f030002;
     }
     public static final class string {

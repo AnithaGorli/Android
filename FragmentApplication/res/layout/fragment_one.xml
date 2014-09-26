@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="#2ECCFA" 
+     android:weightSum="3">
+
+    <Button
+        android:id="@+id/fragmentone_webbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/google"
+        android:padding="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/google" />
+
+    <Button
+        android:id="@+id/fragmentone_imagebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/images"
+         android:padding="20dp" 
+          android:layout_weight="1"
+          android:background="@drawable/gallery"/>
+
+    <Button
+        android:id="@+id/fragmentone_textbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/document"
+         android:padding="20dp"
+         android:background="@drawable/doc"
+          android:layout_weight="1" />
+
+</LinearLayout>
