@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">JsonApplication</string>
+   
+    <string name="download">DownLoading Facebook User Details</string>
+    <string name="download_json">Downloder for JSON Object</string>
+    <string name="json_button">JSON Button</string>
+    <string name="fb_user">Facebook User Details</string>
+    <string name="first_name">FirstName:-</string>
+    <string name="last_name">LastName:-</string>
+     <string name="link">Link:-</string>
+    <string name="id">Facebook Id:-</string>
+    <string name="gender">Gender:-</string>
+    <string name="name">Name:-</string>
+     <string name="username">Username:-</string>
+     <string name="downloadtxt">Download</string>
+     <string name="locale">Location:-</string>
+
+</resources>
