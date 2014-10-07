@@ -20,7 +20,7 @@
         </activity>
         <receiver android:name="com.pcs.broadcastreceiverapplication.ReceiverActivity" >
             <intent-filter >
-                <action android:name="com.pcs.SEND"/>
+                <action android:name="com.pcs.SEND_MESSAGE"/>
             </intent-filter>
             
         </receiver>

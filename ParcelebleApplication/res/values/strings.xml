@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Employee Details</string>
+    <string name="employee_show">SHOW</string>
+     <string name="details">Welcome</string>
+        <string name="empid">Employee Id :  </string>
+        <string name="empname">Employee Name :</string>
+        <string name="empdesg">Designation :  </string>
+       
+    
+    
+
+</resources>

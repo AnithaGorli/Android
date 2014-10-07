@@ -12,28 +12,25 @@ import android.widget.TextView;
 
 
 public class SenderActivity extends Activity{
-	private Button startBtn;
-	private TextView sendtxt;
+	private Button broadcastBtn;
+	private TextView messageTxt;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		sendtxt=(TextView)findViewById(R.id.send_text);
-		startBtn=(Button)findViewById(R.id.broadcast_btn);
+		messageTxt=(TextView)findViewById(R.id.send_text);
+		broadcastBtn=(Button)findViewById(R.id.broadcast_btn);
 	
-		startBtn.setOnClickListener(new OnClickListener() {
-			/**
-			 * text field will take message and then
-			 * when i click on start button data will be broadcasted to all who are registered
-			 */
+		broadcastBtn.setOnClickListener(new OnClickListener() {
+			
 			@Override
 			public void onClick(View v) {
 				
 				Intent intent=new Intent();
-				intent.setAction("com.pcs.SEND");
-				intent.putExtra(Constant.AddExtaras.TEXT, sendtxt.getText().toString());
-				//start broadcasting message
+				intent.setAction("com.pcs.SEND_MESSAGE");
+				intent.putExtra(Constant.AddExtaras.TEXT, messageTxt.getText().toString());
+		
 			    sendBroadcast(intent);
 				
 				
