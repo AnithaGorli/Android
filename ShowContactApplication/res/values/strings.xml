@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">ShowListApplication</string>
+    <string name="showlist">Show Contacts</string>
+    <string name="contactlist">All Contacts</string>
+    <string name="delete">Delete Contacts</string>
+    <string name="deleted">All Contacts Deleted</string>
+
+</resources>
