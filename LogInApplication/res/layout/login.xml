@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackgroundblue"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/mainbarblue"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/signin"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/logotxt"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="@string/emailtxt"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/email_edt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif"
+            android:hint="@string/emailhint"
+            android:inputType="textWebEmailAddress"
+           >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="@string/passwordtxt"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/password_edt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif"
+            android:hint="@string/passwordhint"
+            android:inputType="textPassword"
+             >
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signinbtn"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+       android:layout_gravity="center"
+        android:background="@drawable/buttonwelcome_on"
+        android:fontFamily="sans-serif"
+        android:text="@string/signin"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/fogot_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/forgotpassword"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

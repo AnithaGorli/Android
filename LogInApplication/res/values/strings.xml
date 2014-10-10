@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">LogInApplication</string>
+    <string name="emailtxt">Email :</string>
+    <string name="emailhint">example@domaim.com</string>
+    <string name="passwordtxt">Password :</string>
+    <string name="passwordhint">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="welcome">Welcome</string>
+    <string name="invalid">Should Enter Email and Password</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="invalidemail">Invalid Email Address</string>
+    <string name="logotxt">Welcome to Horse Races NOW!</string>
+
+</resources>
