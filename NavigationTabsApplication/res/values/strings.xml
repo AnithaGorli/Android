@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">NavigationTabsApplication</string>
+
+   <string name="tab_one">Friends</string>
+   
+     <string name="tab_two">Gallery</string>
+     <string name="friend1">Kalyani</string>
+     <string name="friend2">Harish</string>
+     <string name="friend3">Sailika</string>
+     <string name="friend4">Dharma</string>
+     <string name="friend5">Avinash</string>
+      <string name="friend6">Anitha</string>
+</resources>
