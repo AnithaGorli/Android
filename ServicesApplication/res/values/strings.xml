@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">ServicesApplication</string>
+<string name="play">Play Music</string>
+<string name="stop">Stop Music</string>
+<string name="playvideo">Play Video</string>
+<string name="stopvideo">Stop Video</string>
+</resources>

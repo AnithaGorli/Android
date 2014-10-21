@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:background="#ff99ff"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:weightSum="2" >
+
+    <Button
+        android:id="@+id/playmusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/play" 
+        android:layout_weight="1"
+        android:onClick="playMusic"/>
+
+    <Button
+        android:id="@+id/stopmusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:text="@string/stop" 
+        android:onClick="stopMusic"/></LinearLayout>
+    
+    <VideoView android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+       
+        android:layout_height="200dp"/>-
+      
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:weightSum="2" >
+
+    <Button
+        android:id="@+id/playvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/playvideo" 
+        android:layout_weight="1"
+        android:onClick="playVideo"/>
+
+    <Button
+        android:id="@+id/stopvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:text="@string/stopvideo" 
+        android:onClick="stopVideo"/></LinearLayout>
+
+</LinearLayout>
