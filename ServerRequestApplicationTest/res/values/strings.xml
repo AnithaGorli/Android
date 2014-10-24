@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ServerRequestApplicationTestTest</string>
+    <string name="str">{"id":"591658927624314","first_name":"Anitha","username":"anitha.honey784","name":"Anitha Honey","locale":"en_US","link":"https:\/\/www.facebook.com\/anitha.honey784","last_name":"Honey","gender":"female"}</string>
+
+</resources>

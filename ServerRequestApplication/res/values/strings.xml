@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">ServerRequestApplication</string>
+    <string name="download">Download</string>
+    <string name="downloading">Downloading</string>
+    <string name="getting_json">Json Object is not Null</string>
+    <string name="valid">Valid Server Response</string>
+    <string name="name_no">You Json Object Does Not Contain Name</string>
+    <string name="gender_no">You Json Object Does Not Contain Gender</string>
+    <string name="city_no">You Json Object Does Not Contain City</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="city">City</string>
+
+</resources>
