@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Animations</string>
+    <string name="zooming">Zooming</string>
+    <string name="fading">Fading</string>
+    <string name="rotating">Rotating</string>
+    <string name="blinking">Blinking</string>
+    <string name="bouncing">Bouncing</string>
+    <string name="sliding">Sliding</string>
+    <string name="zoomin">ZoomIn</string>
+    <string name="text">ANDROID</string>
+    <string name="zoomout">ZoomOut</string>
+    <string name="fadein">FadeIn</string>
+    <string name="fadeout">FadeOut</string>
+    <string name="rotate">Rotate</string>
+    <string name="blink">Blink</string>
+    <string name="bounce">Bounce</string>
+    <string name="slidup">SlideUp</string>
+    <string name="sliddown">SlideDown</string>
+
+</resources>
