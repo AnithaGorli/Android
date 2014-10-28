@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="aqua" type="color">#00FFFF</item>
+    <item name="yellow" type="color">#F4FA58</item>
+    <item name="pink" type="color">#FA58F4</item>
+    <item name="darkcyan" type="color">#008B8B</item>
+    <item name="teal" type="color">#009688</item>
+    <item name="purple" type="color">#9c27b0</item>
+    <item name="green" type="color">#259b24</item>
+    <item name="white" type="color">#FFFFFF</item>
+
+</resources>
