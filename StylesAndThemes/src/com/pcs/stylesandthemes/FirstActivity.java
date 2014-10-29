@@ -15,11 +15,8 @@ public class FirstActivity extends Activity implements OnClickListener{
 	private Button androidBtn,iosBtn;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.first);
-
-
 		androidBtn=(Button)findViewById(R.id.androidbtn);		
 		iosBtn=(Button)findViewById(R.id.iosbtn);
 		androidBtn.setOnClickListener(this);
@@ -33,7 +30,7 @@ public class FirstActivity extends Activity implements OnClickListener{
 		case R.id.androidbtn:
 			Intent intent=new Intent(FirstActivity.this,SecondActivity.class);
 			startActivity(intent);
-			
+
 			break;
 			//it will directed to Second Activity which is ios page
 		case R.id.iosbtn:
