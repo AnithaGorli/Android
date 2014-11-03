@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">DataBaseApplication</string>
+    <string name="contacts">Contacts</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="namehint">Enter Username</string>
+    <string name="emailhint">Enter Email</string>
+    <string name="phonehint">Enter Phone</string>
+    <string name="paswordhint">Enter Password</string>
+    <string name="save">Save</string>
+    <string name="show">Show All</string>
+    <string name="edit">Edit</string>
+    <string name="error">Should Enter All Values</string>
+    <string name="insert_success">Row Inseted</string>
+    <string name="submit">Submit</string>
+
+</resources>
